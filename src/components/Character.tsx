@@ -1,5 +1,5 @@
 
-interface props{
+interface Props{
   character:{
     image: string
     status: string
@@ -11,7 +11,7 @@ interface props{
   }
 }
 
-const Character = ({character}:props) =>{
+const Character: React.FC<Props> =({character})=>{
     return (
       <div className="card">
         <img src={character.image} alt="" />
