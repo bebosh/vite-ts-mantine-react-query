@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> f7faa6e402d417679a1a33a2d74a1b154ba22dbb
 interface Props{
   character:{
     image: string
@@ -14,11 +10,7 @@ interface Props{
   }
 }
 
-<<<<<<< HEAD
 const Character = ({character}:Props) =>{
-=======
-const Character: React.FC<Props> =({character})=>{
->>>>>>> f7faa6e402d417679a1a33a2d74a1b154ba22dbb
     return (
       <div className="card">
         <img src={character.image} alt="" />
