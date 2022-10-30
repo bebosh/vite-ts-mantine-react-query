@@ -1,5 +1,4 @@
-
-interface props{
+interface Props{
   character:{
     image: string
     status: string
@@ -11,7 +10,7 @@ interface props{
   }
 }
 
-const Character = ({character}:props) =>{
+const Character = ({character}:Props) =>{
     return (
       <div className="card">
         <img src={character.image} alt="" />
